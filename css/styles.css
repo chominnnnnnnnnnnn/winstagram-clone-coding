@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Langar&family=Lobster&family=Open+Sans&display=swap");
+
+@import "reset.css";
+@import "variable.css";
+
+/* Components */
+@import "components/status.css";
+@import "components/title.css";
+@import "components/user.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/home.css";
+
+* {
+  font-family: "Langar", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Open Sans", sans-serif;
+}

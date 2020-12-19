@@ -1,0 +1,147 @@
+.main-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 20px;
+}
+
+.header__menu--column {
+  width: 33%;
+}
+
+.header__menu--column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__title--little {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.story-slide {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+.story-slide__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.story-slide__user .user {
+  width: 90px;
+  height: 90px;
+  padding: 6px;
+}
+
+.story-slide__user--name {
+  margin-top: 5px;
+}
+
+.user-post__title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-post__title .user-post__column {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.user-post__title .user-post__column img {
+  width: 50px;
+  height: 50px;
+}
+
+.user-post__title .user-post__column:last-child {
+  margin-right: 10px;
+}
+
+.user-post__title__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-post__title__name span {
+  padding: 3px 10px;
+}
+
+.user-post__title__name span:first-child {
+  font-weight: 900;
+}
+
+.user-post__photo img {
+  width: 100%;
+}
+
+.user-post__add {
+  padding: 10px;
+}
+
+.user-post__mark {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.user-post__mark .user-post__column {
+  width: 33%;
+}
+
+.user-post__mark .user-post__column i {
+  padding-right: 15px;
+}
+
+.user-post__mark .user-post__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.user-post__mark .user-post__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-post__mark .user-post__column:nth-child(2) div {
+  margin: 0px 2px;
+}
+
+.user-post__slide--round {
+  background-color: var(--blue);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.user-post__write {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-post__write .user-post__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-post__write .user-post__column:first-child span {
+  padding-bottom: 10px;
+}
+
+.user-post__write .user-post__column img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
