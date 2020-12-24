@@ -1,0 +1,15 @@
+.lower-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.lower-nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 30px 40px 30px;
+  list-style: none;
+}

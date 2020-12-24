@@ -5,6 +5,7 @@
 @import "variable.css";
 
 /* Components */
+@import "components/lower-nav.css";
 @import "components/status.css";
 @import "components/title.css";
 @import "components/user.css";
@@ -12,6 +13,9 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/home.css";
+@import "screens/search.css";
+@import "screens/upload.css";
+@import "screens/activity.css";
 
 * {
   font-family: "Langar", cursive;

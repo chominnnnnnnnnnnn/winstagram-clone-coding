@@ -1,10 +1,12 @@
 .status-header {
+  top: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  background-color: white;
   padding: 15px 10px;
-  box-sizing: border-box;
   font-weight: bold;
+  z-index: 4;
 }
 
 .status-header__column {
