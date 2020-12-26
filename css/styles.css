@@ -16,9 +16,14 @@
 @import "screens/search.css";
 @import "screens/upload.css";
 @import "screens/activity.css";
+@import "screens/profile.css";
 
 * {
   font-family: "Langar", cursive;
   font-family: "Lobster", cursive;
   font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 500vw;
 }

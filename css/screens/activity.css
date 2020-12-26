@@ -1,68 +1,101 @@
-.title-name {
-  padding: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.title {
+  position: fixed;
+  top: 60px;
+  width: 100vw;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
-.title-name h1 {
+.title h1 {
   font-size: 30px;
-  font-weight: 900;
-  padding: 35px 0px;
+  font-weight: 800;
 }
 
-.title-name span {
-  font-size: 20px;
-}
-
-.this-month,
-.suggest,
-.earlier {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.follow-screen {
+  margin-top: 100px;
 }
 
 .follow-screen h4 {
   font-size: 20px;
-  font-weight: 600;
-  padding-top: 10px;
-  padding-bottom: 30px;
 }
 
-.user_component {
+.ttile h1,
+.follow-screen h4,
+.follow-screen span,
+.user__component__column--name span:first-child {
+  font-weight: 800;
+  opacity: 1;
+}
+
+.ex-title {
+  margin-left: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px 0px;
+}
+
+.user-list {
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.user-list:last-child {
+  border: none;
+}
+
+.user__component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.user__component__column {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
 }
 
-.user_component img {
-  width: 55px;
-  height: 55px;
+.user__component img {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   margin-right: 15px;
 }
 
-.user_component span:first-of-type {
-  font-weight: 600;
+.user__component__column i {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
 }
 
-.suggest .user_component__column {
+.user__component__column:last-of-type {
+  margin-left: 10px;
+}
+
+.follow__btn {
+  margin-left: 20px;
+  background-color: var(--blue);
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.follow__btn--big {
+  padding: 8px 35px;
+}
+
+.follow__btn--little {
+  padding: 8px 20px;
+}
+
+.user__component__column--name {
   display: flex;
   flex-direction: column;
 }
-.follow-btn {
-  background-color: var(--blue);
-  color: white;
-}
 
-.btn__big {
-  padding: 7px 30px;
-  border-radius: 5px;
-  margin-left: 30px;
-}
-
-.btn__little {
-  padding: 8px;
-  border-radius: 5px;
-  margin-left: 180px;
+.user__component__column--name span {
+  padding-top: 3px;
+  color: inherit;
+  opacity: 0.5;
+  font-weight: normal;
 }
