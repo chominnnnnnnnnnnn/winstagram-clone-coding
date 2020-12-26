@@ -1,9 +1,39 @@
+@keyframes goup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* @keyframes goout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: none;
+  }
+} */
+
+.upload-screen {
+  transform: translateY(100vh);
+  animation: goup 0.5s ease-in-out forwards;
+}
+
 .back-x {
   position: fixed;
   width: 100%;
   margin-top: 50px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+/* .upload-screen-down {
+  transform: translateY(-100vh);
+  animation: goout 0.5s ease-in-out forwards;
+} */
 
 .back-x i {
   padding: 4px 20px;
